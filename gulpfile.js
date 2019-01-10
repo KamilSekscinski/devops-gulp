@@ -3,4 +3,5 @@ function task(cb) {
     cb();
 }
 
+exports.task = task;
 exports.default = task;
