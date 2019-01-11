@@ -27,7 +27,7 @@ https://nodejs.org/en/ - oficjalna strona node.js
 
 1. Zainstaluj 'gulp-sass' komendą:
    > npm install gulp-sass -D
-2. Zmieńcie branch na 'part-2'
+2. Zmień branch na 'part-2'
 3. Wejdź do gulpfile.js i sprawdź to, co się zmieniło.
 4. Uruchom w przeglądarce plik index.html.
 5. Uruchom zadanie gulpa o nazwie 'styles' komentą:
@@ -35,3 +35,13 @@ https://nodejs.org/en/ - oficjalna strona node.js
 6. Odśwież stronę i sprawdź zmiany. Sprawdź zmiany w folderze projektu.
 7. Zmień kolor backgroundu w pliku main.scss na inny i uruchom zadanie 'sass' ponownie. Sprawdź zmiany.
 8. Zmień lokalizację pliku i stwórz nowe zadanie, które kompiluje nowy plik sass do pliku css i użyj go w index.html.
+
+## Zadanie 3
+
+1. Zmień branch na 'part-3'
+2. Wejdź do gulpfile.js i sprawdź to, co się zmieniło.
+3. Uruchom w przeglądarce plik index.html.
+4. Uruchom zadanie gulpa o nazwie 'styleswatch' komentą:
+   > gulp styleswatch
+5. Odśwież stronę i sprawdź zmiany. Sprawdź zmiany w folderze projektu.
+6. Zmień kolor backgroundu w pliku main.scss na inny i od razu sprawdź zmiany na stronie. Odświe stronę i sprawdź jeszcze raz.

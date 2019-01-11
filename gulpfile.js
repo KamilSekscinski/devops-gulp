@@ -1,14 +1,15 @@
-var {
-    dest,
-    src
-} = require('gulp');
+var gulp = require('gulp');
 var sass = require('gulp-sass');
 
 function styles() {
-    return src('src/scss/**/*.scss')
+    return gulp.src('src/scss/**/*.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(dest('build'))
+        .pipe(gulp.dest('build'))
 };
+
+function stylesWatch() {
+    gulp.watch('src/scss/**/*.scss', styles);
+}
 
 function task(cb) {
     console.log('hello gulp');
@@ -17,4 +18,5 @@ function task(cb) {
 
 exports.task = task;
 exports.styles = styles;
+exports.styleswatch = stylesWatch;
 exports.default = task;
