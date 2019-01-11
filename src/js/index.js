@@ -1,5 +1,6 @@
 function logSomething(text) {
-    console.log(text);
+    console.log(`Hello ${text}`);
 }
 
-logSomething('hello gulp');
+const name = 'Gulp';
+logSomething(name);
