@@ -1,11 +1,14 @@
-var gulp = require('gulp');
+var {
+    dest,
+    src
+} = require('gulp');
 var sass = require('gulp-sass');
 
-gulp.task('sass', function(){
-    return gulp.src('src/scss/**/*.scss')
+function styles() {
+    return src('src/scss/**/*.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('build'))
-});
+        .pipe(dest('build'))
+};
 
 function task(cb) {
     console.log('hello gulp');
@@ -13,4 +16,5 @@ function task(cb) {
 }
 
 exports.task = task;
+exports.styles = styles;
 exports.default = task;
