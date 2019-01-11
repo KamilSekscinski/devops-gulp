@@ -60,3 +60,14 @@ https://nodejs.org/en/ - oficjalna strona node.js
    > gulp scriptswatch
 8. Odśwież stronę i sprawdź zmiany. Sprawdź zmiany w folderze projektu.
 9. Zmień imię w pliku index.js na inne i od razu sprawdź zmiany na stronie. Odświe stronę i sprawdź jeszcze raz.
+
+## Zadanie 5
+
+1. Zmień branch na 'part-5'
+2. Zainstaluj zalezności komendą:
+   > npm install -D browser-sync
+3. Wejdź do gulpfile.js i sprawdź to, co się zmieniło.
+4. Uruchom zadanie gulpa o nazwie 'watch' komentą:
+   > gulp watch
+5. Pozmieniaj coś w plikach: src/js/index.js, src/scss/main.scss oraz index.html
+6. Sprawdź na stronie co się zmieniło
